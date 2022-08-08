@@ -7,7 +7,17 @@ git clone https://github.com/Zaborevskie/Guide.git
 ```bash
 git status
 ```
-* Добавить каталог к коммиту
+* Добавить файл (каталог) к коммиту
 ```bash
 git add CLI
+```
+* Создать коммит (commit) - сделать "снимок" текущего состояния репозитория
+```bash
+git commit -m "initial commit"
+# -m - message
+# текст в кавычках - сообщение о коммите (message)
+```
+* Отправить коммит(ы) в удаленный репозиторий
+```bash
+git push
 ```
